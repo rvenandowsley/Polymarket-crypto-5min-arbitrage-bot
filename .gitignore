@@ -1,0 +1,8 @@
+# IDE - IntelliJ
+.idea/
+*.iml
+*.iws
+.classpath
+.project
+.settings/
+.git/

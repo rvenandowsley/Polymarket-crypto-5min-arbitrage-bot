@@ -1,0 +1,35 @@
+[package]
+name = "poly_5min_bot"
+version = "0.1.0"
+edition = "2021"
+default-run = "poly_5min_bot"
+
+[dependencies]
+polymarket-client-sdk = { version = "0.4.1", features = ["clob", "ctf", "data", "gamma", "ws", "tracing"] }
+tokio = { version = "1.49", features = ["full"] }
+anyhow = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+reqwest = { version = "0.12", default-features = false, features = ["json", "rustls-tls"] }
+hmac = "0.12"
+sha2 = "0.10"
+base64 = "0.22"
+rust_decimal = "1.39"
+rpc-check = "0.1"
+rust_decimal_macros = "1.39"
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+dotenvy = "0.15"
+alloy = { version = "1.3", default-features = false, features = [
+    "signer-local",
+    "signers",
+    "reqwest",
+    "reqwest-rustls-tls",
+    "providers",
+    "contract",
+] }
+chrono = { version = "0.4", features = ["serde"] }
+dashmap = "6.1"
+futures = "0.3"
+uuid = { version = "1.0", features = ["v4"] }
+aes-gcm = "0.10"
