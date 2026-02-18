@@ -1,3 +1,7 @@
+# Important Update
+
+Since the https://polygon-rpc.com RPC endpoint has ceased free operation, please upgrade to the latest version of the code immediately. Otherwise, you will be unable to perform a proper merge operation, resulting in data loss.
+
 # poly_5min_bot
 
 **English** | [中文](README.zh-CN.md)
