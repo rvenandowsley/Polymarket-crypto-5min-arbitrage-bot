@@ -1,3 +1,7 @@
+# 重要更新
+
+由于 https://polygon-rpc.com rpc端点已经停止免费运营，所以请立马升级到最新版本代码，否则无法正常merge操作带来损失。
+
 # poly_5min_bot
 
 [English](README.md) | **中文**
