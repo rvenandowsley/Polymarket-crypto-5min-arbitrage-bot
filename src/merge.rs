@@ -79,7 +79,7 @@ sol! {
     function proxy(ProxyCallTuple[] calls) external payable returns (bytes[] returnValues);
 }
 
-const RPC_URL_DEFAULT: &str = "https://polygon-mainnet.gateway.tatum.io";
+const RPC_URL_DEFAULT: &str = "https://polygon-bor-rpc.publicnode.com";
 const RELAYER_URL_DEFAULT: &str = "https://relayer-v2.polymarket.com";
 const USDC_POLYGON: Address = address!("0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174");
 
