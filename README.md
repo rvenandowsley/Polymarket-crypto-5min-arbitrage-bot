@@ -1,12 +1,15 @@
 # poly_5min_bot
 
-### 5Min： https://github.com/rvenandowsley/Polymarket-crypto-5min-arbitrage-bot
-
-### 15Min： https://github.com/rvenandowsley/Polymarket-crypto-15min-arbitrage-bot
-
-### 1Hour： https://github.com/rvenandowsley/Polymarket-crypto-1hour-arbitrage-bot
-
 **English** | [中文](README.zh-CN.md)
+
+The program is already in permanent use; the license.key is the permanent license, so please don't ask me for the license certificate again.
+
+#### 5Min： https://github.com/rvenandowsley/Polymarket-crypto-5min-arbitrage-bot
+
+#### 15Min： https://github.com/rvenandowsley/Polymarket-crypto-15min-arbitrage-bot
+
+#### 1Hour： https://github.com/rvenandowsley/Polymarket-crypto-1hour-arbitrage-bot
+
 
 A Rust arbitrage bot for [Polymarket](https://polymarket.com) crypto “Up or Down” 5‑minute markets (UTC). It monitors order books, detects YES+NO spread arbitrage opportunities, executes trades via the CLOB API, and can periodically merge redeemable positions.
 
