@@ -2,6 +2,12 @@
 
 [English](README.md) | **中文**
 
+程序已经是永久使用了，license.key就是永久的授权，不要再找我要授权凭证了。
+
+#### 5Min： https://github.com/rvenandowsley/Polymarket-crypto-5min-arbitrage-bot
+#### 15Min： https://github.com/rvenandowsley/Polymarket-crypto-15min-arbitrage-bot
+#### 1Hour： https://github.com/rvenandowsley/Polymarket-crypto-1hour-arbitrage-bot
+
 面向 [Polymarket](https://polymarket.com) 加密货币「涨跌」5 分钟市场（UTC 时间）的 Rust 套利机器人。监控订单簿、检测 YES+NO 价差套利机会、通过 CLOB API 下单，并可定时对可赎回持仓执行 merge。
 
 ## 功能
@@ -11,8 +17,6 @@
 - **套利执行**：下 YES、NO 双单（GTC/GTD/FOK/FAK），可配置滑点、单笔上限与执行价差。
 - **风险管理**：跟踪敞口、遵守 `RISK_MAX_EXPOSURE_USDC`，可选对冲监控（当前对冲逻辑已关闭）。
 - **Merge 任务**：定时拉取持仓，对 YES、NO 双边都持仓的市场执行 `merge_max` 赎回（需配置 `POLYMARKET_PROXY_ADDRESS` 与 `MERGE_INTERVAL_MINUTES`）。
-
----
 
 ---
 ### TG联系方式：[@polyboy123](https://t.me/polyboy123)
