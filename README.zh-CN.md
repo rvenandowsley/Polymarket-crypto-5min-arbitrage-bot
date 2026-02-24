@@ -26,12 +26,12 @@
 ---
 
 ## 使用已经编译好的包
-### 暂时只支持Linux,最好是ubuntu24
+### 暂时只支持Linux 和 windows
 1. 从发布页面下载编译好的程序包：poly_5min_bot.zip
 2. 放到云服务器上面，需要确保所在地域能够被polymarket允许交易
 3. 配置好.env中前面的几个空白参数，参数由polymarket官网导出
-4. 前台运行：`./poly_5min_bot`
-5. 后台运行：`nohup ./poly_5min_bot > /dev/null 2>&1 &`
+4. linux运行：`./poly_5min_bot`
+5. windows运行 `poly_5min_bot.exe`
 
 ## 快速开始
 
@@ -143,6 +143,11 @@ cargo run --release
 nohup ./target/release/poly_15min_bot > bot.log 2>&1 &
 ```
 
+**后台运行**（Windows）：
+
+```bash
+poly_15min_bot.exe
+```
 ---
 
 ## 测试用二进制
