@@ -8,6 +8,7 @@ default-run = "poly_5min_bot"
 polymarket-client-sdk = { version = "0.4.1", features = ["clob", "ctf", "data", "gamma", "ws", "tracing"] }
 tokio = { version = "1.49", features = ["full"] }
 anyhow = "1.0"
+rustls = { version = "0.23", features = ["ring"] }
 serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
 reqwest = { version = "0.12", default-features = false, features = ["json", "rustls-tls"] }
