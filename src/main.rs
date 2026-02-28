@@ -181,6 +181,12 @@ async fn run_merge_task(
 
 #[tokio::main]
 async fn main() -> Result<()> {
+
+    // 必须先设置 rustls 的默认加密后端，否则 reqwest/alloy 等使用 TLS 时会 panic
+    rustls::crypto::ring::default_provider()
+        .install_default()
+        .expect("Failed to install rustls crypto provider");
+
     // 初始化日志
     utils::logger::init_logger()?;
 
