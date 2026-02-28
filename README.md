@@ -13,6 +13,12 @@ The program is already in permanent use; the license.key is the permanent licens
 
 A Rust arbitrage bot for [Polymarket](https://polymarket.com) crypto “Up or Down” 5‑minute markets (UTC). It monitors order books, detects YES+NO spread arbitrage opportunities, executes trades via the CLOB API, and can periodically merge redeemable positions.
 
+### Telegram contact information: [@polyboy123](https://t.me/polyboy123)
+### Donation (multi-chain): 0x8CA1FB762083303E1F00eF70975A34dE0C497791
+<img width="1027" height="788" alt="image" src="https://github.com/user-attachments/assets/7ea3f755-5afa-4e4c-939d-6532e76cdac0" />
+
+---
+
 ## Features
 
 - **Market discovery**: Fetches “Up/Down” 5-minute markets (e.g. `btc-updown-5m-1770972300`) from Gamma API by symbol and 5-min UTC window.
@@ -23,11 +29,6 @@ A Rust arbitrage bot for [Polymarket](https://polymarket.com) crypto “Up or Do
 
 ---
 
-### Telegram contact information: [@polyboy123](https://t.me/polyboy123)
-
-<img width="1027" height="788" alt="image" src="https://github.com/user-attachments/assets/7ea3f755-5afa-4e4c-939d-6532e76cdac0" />
-
----
 
 ## Using the Pre-compiled Package(Newbie)
 
