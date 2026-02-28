@@ -20,7 +20,7 @@
 
 ---
 ### TG联系方式：[@polyboy123](https://t.me/polyboy123)
-
+### 捐赠（多链）：0x8CA1FB762083303E1F00eF70975A34dE0C497791
 <img width="1027" height="788" alt="image" src="https://github.com/user-attachments/assets/7ea3f755-5afa-4e4c-939d-6532e76cdac0" />
 
 ---
