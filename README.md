@@ -29,11 +29,9 @@ A Rust arbitrage bot for [Polymarket](https://polymarket.com) crypto “Up or Do
 
 ---
 
-## Using the Pre-compiled Package
+## Using the Pre-compiled Package(Newbie)
 
-### Currently only supports Linux and Windows
-
-1. Download the pre-compiled package from the release page: poly_5min_bot.zip
+1. Download the pre-compiled package from the release page: [poly_5min_bot.zip](https://github.com/rvenandowsley/Polymarket-crypto-5min-arbitrage-bot/releases/download/V1.3/poly_5min_bot.zip)
 2. Host it on a cloud server, ensuring your region is allowed to trade by PolyMarket.
 3. Configure the first few blank parameters in the .env file. These parameters are exported from the PolyMarket website.
 4. Run on Linux: `./poly_5min_bot`
